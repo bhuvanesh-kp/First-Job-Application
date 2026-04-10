@@ -1,0 +1,29 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Java source files
+*.java text diff=java
+*.xml text
+*.properties text
+*.yml text
+*.yaml text
+*.md text
+*.json text
+
+# Maven wrapper - must stay LF
+mvnw text eol=lf
+*.sh text eol=lf
+
+# Windows-only scripts - must stay CRLF
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Binary files
+*.jar binary
+*.war binary
+*.class binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
